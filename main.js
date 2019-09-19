@@ -9,7 +9,7 @@ class NavBar extends React.Component {
 
   logThis() {
     console.log(this);
-    (() => console.log(this))() // This is a callback. When passing a callback to an event handler, the this reference gets lost. No matter if it's an arrow function.
+    (() => console.log(this))()
     let test = function() {
       console.log(this)
     }
