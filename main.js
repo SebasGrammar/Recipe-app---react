@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { render } from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -76,7 +75,7 @@ class SideMenu extends React.Component {
 
 class Main extends React.Component {
   constructor(props) {
-
+    super(props)
   }
   render() {
     return (
@@ -140,7 +139,6 @@ function Footer() {
           <div className="button-section">
             <button>TEST</button>
           </div>
-
         </div>
       )
     }
