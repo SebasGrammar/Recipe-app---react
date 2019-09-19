@@ -1,7 +1,3 @@
-{
-  // https://www.codeproject.com/Tips/1215984/Update-State-of-a-Component-from-Another-in-React
-}
-
 class NavBar extends React.Component {
   constructor(props) {
     super(props)
@@ -164,5 +160,4 @@ class Page extends React.Component {
   }
 }
 
-//render(<NavBar/>, document.querySelector("#root"))
 render(<Page/>, document.querySelector("#root"))
